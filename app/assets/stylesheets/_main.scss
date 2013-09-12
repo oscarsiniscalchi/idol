@@ -127,112 +127,51 @@ textarea {
    ========================================================================== */
 
 body {
-  padding:emCalc(75px) 0 0 0;
+  padding:0;
+  margin: 0;
+  background-color: $primary-color;
 }//body
 
 
 #wrapper {
   width: 100%;
-  &.grid {
-    .box {
-      p {
-        margin:0;
-        @include l-height(40);
-      }//p
-    }//box
-  }//grid
-  
-  &.home {
-    section {
-      &.intro {
-        img {
-          width:100%;
-          margin-bottom:emCalc(20px);
-        }//img
-      }//intro
-    }//section
-    article {
-      &.headers {
-        i.flight-plane {
-          @include f-size(140);
-        }//i
-      }// headers
-      &.features {
-        ul {
-          font-family:$font-family-monospace;
-          margin-top:0;
-          li {
-            i:before {
-              color:$brand-primary;
-            }//before i
-            margin-bottom:emCalc(20px);
-            @include f-size(15);
-          }//li
-        }//ul
-      }//features
-    }//article
-  }//home
+  section {
+    position: relative;
+    top: 200px;
+    width: 300px;
+    height: 3000px;
+    margin: 0 auto;
+  }
+  .pixel {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background: white;
+  }
+  .pixel:nth-child(2)  { left: 30px;  }
+  .pixel:nth-child(3)  { left: 60px;  }
+  .pixel:nth-child(4)  { left: 90px;  }
+  .pixel:nth-child(5)  { left: 120px; }
+  .pixel:nth-child(6)  { left: 150px; }
+  .pixel:nth-child(7)  { left: 180px; }
+  .pixel:nth-child(8)  { left: 210px; }
+  .pixel:nth-child(9)  { left: 240px; }
+  .pixel:nth-child(10) { left: 270px; }
 }//wrappers
 
-section {  
-    &.icons {
-      [class*="icons-content-"] {
-        ul {
-          text-align:center;
-        }//uls
-        [class*="icn-"], [class*="icn-social"] {
-          @include f-size(30);
-        }//foundicon class
-      }//foundicons
-    }//home
-}//sections
+.mobile body {
+  overflow: hidden;
+}
 
-
-#screen-indicators {
-  position: fixed;
-  top: emCalc(45px);
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
-  z-index: 1;
-  p {
-    margin: 0 0 2px;
-    padding: 0.25em 1em;
-    font-size: 11px;
-    font-weight: bold;
-    color: #fff;
-    @include border-bottom-right-radius(4px);
-    background: $text-color;
-    @include opacity(.4);
-   } //p
-}//screen size indicator top left
+  width: 100%;
+}
 
-//labels
-.labels-container {
-  .label {
-    &:first-child{margin-top:emCalc(20px);}
-    @include f-size(12);
-    margin-bottom:emCalc(20px);
-  }
-}//labels container
-
-
-/* #Media Queries - Remove them if ur not gonna use them or if ur gonna put them some other place
-================================================ */
-
-/* We use this media query to add styles to any device that supports media queries */
-@media #{$screen} {}
-/* Apply styles to screens in landscape orientation */
-@media #{$landscape} {}
-/* Apply styles to screens in portrait orientation */
-@media #{$portrait} {}
-//tablet portrait
-@media #{$tablet_portrait} {}
-//Default
-@media #{$default} {}
-//Handheld device landscape
-@media #{$handheld_landscape} {}
-//Handheld device landscape
-@media #{$handheld} {}
-//Big screens
-@media #{$large} {}
-//High Resolutions
-@media #{$high_ress} {}
+.mobile #scroller {
+  height: 3000px;
+}

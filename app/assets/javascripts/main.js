@@ -1,19 +1,43 @@
+var main = {
 
-//Here goes your code for the project
+  Parallax: function() {
+    var ua = navigator.userAgent,
+        isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
 
+      if (isMobileWebkit) {
+        $('html').addClass('mobile');
+      }
+
+      $(function(){
+        var iScrollInstance;
+
+        if (isMobileWebkit) {
+          iScrollInstance = new iScroll('wrapper');
+
+          $('#scroller').stellar({
+            scrollProperty: 'transform',
+            positionProperty: 'transform',
+            horizontalScrolling: false,
+            verticalOffset: 150
+          });
+        } else {
+          $.stellar({
+            horizontalScrolling: false,
+            verticalOffset: 150
+          });
+        }
+      });
+  }//init
+
+}//boobstrap
 $(document).ready(function() {
-  
-  $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-  appendIconNames(["social","common", "enclosed"]);
-  
-});//DOM ready
+  main.Parallax();
+});//DOM
 
-function appendIconNames(sets) {
-  $.each(sets, function(index, set) {
-    $('.icons-content-'+set+' ul li i').each(function() {
-      var prefix = $(this).attr('class');
-      $(this).parent().append('<p>'+prefix+'</p>')
-    });
-  });
-  
-}//Append icons name
+$(window).load(function() {
+});
+
+$(window).resize(function() {
+  $.doTimeout( 'resize', 250, function(){
+  });// trigger events only once !!
+});

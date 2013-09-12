@@ -15,6 +15,8 @@
 = require vendor/dotimeout
 = require vendor/hoverintent
 = require vendor/scrollTo
+= require vendor/jquery.stellar.min
+= require vendor/iscroll
 =require assets/boobstrap.topbar
 = require assets/anchor-easing
 =require assets/boobstrap

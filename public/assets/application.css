@@ -5009,93 +5009,87 @@ ul.disc {
    ========================================================================== */
 /* line 129, ../../app/assets/stylesheets/_main.scss */
 body {
-  padding: 5.35714em 0 0 0;
+  padding: 0;
+  margin: 0;
+  background-color: #2ba6cb;
 }
 
-/* line 134, ../../app/assets/stylesheets/_main.scss */
+/* line 136, ../../app/assets/stylesheets/_main.scss */
 #wrapper {
   width: 100%;
 }
 /* line 138, ../../app/assets/stylesheets/_main.scss */
-#wrapper.grid .box p {
-  margin: 0;
-  line-height: 40px;
-  line-height: 2.85714rem;
+#wrapper section {
+  position: relative;
+  top: 200px;
+  width: 300px;
+  height: 3000px;
+  margin: 0 auto;
 }
-/* line 148, ../../app/assets/stylesheets/_main.scss */
-#wrapper.home section.intro img {
-  width: 100%;
-  margin-bottom: 1.42857em;
+/* line 145, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: white;
+}
+/* line 152, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(2) {
+  left: 30px;
+}
+/* line 153, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(3) {
+  left: 60px;
+}
+/* line 154, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(4) {
+  left: 90px;
+}
+/* line 155, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(5) {
+  left: 120px;
 }
 /* line 156, ../../app/assets/stylesheets/_main.scss */
-#wrapper.home article.headers i.flight-plane {
-  font-size: 140px;
-  font-size: 10rem;
+#wrapper .pixel:nth-child(6) {
+  left: 150px;
 }
-/* line 161, ../../app/assets/stylesheets/_main.scss */
-#wrapper.home article.features ul {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  margin-top: 0;
+/* line 157, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(7) {
+  left: 180px;
 }
-/* line 164, ../../app/assets/stylesheets/_main.scss */
-#wrapper.home article.features ul li {
-  margin-bottom: 1.42857em;
-  font-size: 15px;
-  font-size: 1.07143rem;
+/* line 158, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(8) {
+  left: 210px;
 }
-/* line 165, ../../app/assets/stylesheets/_main.scss */
-#wrapper.home article.features ul li i:before {
-  color: #7a4d96;
+/* line 159, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(9) {
+  left: 240px;
 }
-
-/* line 180, ../../app/assets/stylesheets/_main.scss */
-section.icons [class*="icons-content-"] ul {
-  text-align: center;
-}
-/* line 183, ../../app/assets/stylesheets/_main.scss */
-section.icons [class*="icons-content-"] [class*="icn-"], section.icons [class*="icons-content-"] [class*="icn-social"] {
-  font-size: 30px;
-  font-size: 2.14286rem;
+/* line 160, ../../app/assets/stylesheets/_main.scss */
+#wrapper .pixel:nth-child(10) {
+  left: 270px;
 }
 
-/* line 191, ../../app/assets/stylesheets/_main.scss */
-#screen-indicators {
-  position: fixed;
-  top: 3.21429em;
+/* line 163, ../../app/assets/stylesheets/_main.scss */
+.mobile body {
+  overflow: hidden;
+}
+
+/* line 167, ../../app/assets/stylesheets/_main.scss */
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
-  z-index: 1;
-}
-/* line 196, ../../app/assets/stylesheets/_main.scss */
-#screen-indicators p {
-  margin: 0 0 2px;
-  padding: 0.25em 1em;
-  font-size: 11px;
-  font-weight: bold;
-  color: #fff;
-  -moz-border-radius-bottomright: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  background: #4d4d4d;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  opacity: 0.4;
+  width: 100%;
 }
 
-/* line 210, ../../app/assets/stylesheets/_main.scss */
-.labels-container .label {
-  font-size: 12px;
-  font-size: 0.85714rem;
-  margin-bottom: 1.42857em;
-}
-/* line 211, ../../app/assets/stylesheets/_main.scss */
-.labels-container .label:first-child {
-  margin-top: 1.42857em;
+/* line 175, ../../app/assets/stylesheets/_main.scss */
+.mobile #scroller {
+  height: 3000px;
 }
 
-/* #Media Queries - Remove them if ur not gonna use them or if ur gonna put them some other place
-================================================ */
-/* We use this media query to add styles to any device that supports media queries */
-/* Apply styles to screens in landscape orientation */
-/* Apply styles to screens in portrait orientation */
 /* #SIDEBAR
 ================================================== */
 /* line 12, ../../app/assets/stylesheets/assets/_sidebar.scss */
