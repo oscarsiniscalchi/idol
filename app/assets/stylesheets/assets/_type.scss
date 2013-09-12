@@ -1,0 +1,119 @@
+// --------------------------------------------------------
+// VARIABLES
+// --------------------------------------------------------
+
+// #Links
+$link-color: $action-primary !default;
+$link-color-hover:darken($link-color, 15%) !default;
+
+/* #Typography
+================================================== */
+
+@font-face {
+    font-family: 'NRLight';
+    src: url('fonts/Light.eot');
+    src: url('fonts/Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Light.woff') format('woff'),
+         url('fonts/Light.ttf') format('truetype'),
+         url('fonts/Light.svg#Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NR';
+    src: url('fonts/Regular.eot');
+    src: url('fonts/Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Regular.woff') format('woff'),
+         url('fonts/Regular.ttf') format('truetype'),
+         url('fonts/Regular.svg#Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NRBold';
+    src: url('fonts/Bold.eot');
+    src: url('fonts/Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bold.woff') format('woff'),
+         url('fonts/Bold.ttf') format('truetype'),
+         url('fonts/Bold.svg#Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fw-n {font-weight:normal;}
+.fw-b {font-weight:bold;}
+.it {font-style:italic;}
+.tt-u {text-transform:uppercase;}
+.italic {font-style:italic;}
+
+// Font smoothing
+// Note this only applies to webkit-based desktop browsers on the Mac.
+.antialiased { -webkit-font-smoothing: antialiased; }
+
+/* #Forms
+================================================== */
+$input-color-placeholder: lighten($text-color, 25%) !default;
+
+
+/* #Headers
+================================================== */
+$header-font-color: $black-70 !default;
+$paragraph-margin-bottom: 0 0 emCalc(20px) 0;
+$paragraph-lh: 1.7;
+
+h1, h2, h3, h4, h5, h6 { @extend .fw-n; font-family:$font-nr; margin:0; color:$header-font-color; @extend .tt-u; @extend .antialiased; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { @include f-size(40); @include l-height(50); margin-bottom: 14px}
+h2 { @include f-size(30); @include l-height(35); margin-bottom: 10px}
+h3 { @include f-size(25); @include l-height(30); margin-bottom: 8px}
+h4 { @include f-size(20); @include l-height(25); margin-bottom: 4px }
+h5 { @include f-size(17); @include l-height(22)}
+h6 { @include f-size(14); @include l-height(18)}
+.subheader {color:$black-50 ; font-weight:300; font-family: $font-family-sans-serif; text-transform:none;}
+h1, h2, h3, h4, h5, h6 {
+  span {
+    text-transform:none;
+    font-size:60%;
+    vertical-align:middle;
+    color:$black-40;
+  }//span
+}//h
+
+p { 
+  padding: 0;
+  margin: $paragraph-margin-bottom;
+}//p
+small { font-size: 80%;}
+
+/* Blockquotes */
+$blockquote-font-color:                lighten($header-font-color, 30%) !default;
+$blockquote-padding:                   emCalc(9px) emCalc(20px) 0 emCalc(19px) !default;
+$blockquote-border:                    1px solid #ddd !default;
+$blockquote-cite-font-size:            emCalc(13px) !default;
+$blockquote-cite-font-color:           lighten($header-font-color, 20%) !default;
+$blockquote-cite-link-color:           $blockquote-cite-font-color !default;
+
+blockquote {
+  margin: 0 0 $paragraph-margin-bottom;
+  padding: $blockquote-padding;
+  border-#{$default-float}: $blockquote-border;
+
+  cite {
+    display: block;
+    font-size: $blockquote-cite-font-size;
+    color: $blockquote-cite-font-color;
+    &:before {
+      content: "\2014 \0020";
+    }
+
+    a,
+    a:visited {
+      color: $blockquote-cite-link-color;
+    }
+  }
+}
+blockquote,
+blockquote p {
+  line-height: $paragraph-lh;
+  color: $blockquote-font-color;
+}

@@ -1,0 +1,238 @@
+//Base styles
+html,
+body {
+  background-color: $body-bg;
+  font-size:$fs;
+  line-height:$lh-base;
+}
+body {
+  padding: 0;
+  font-family: $font-base;
+  font-size:$fs;
+  line-height: $lh-base;
+  color: $text-color;
+  font-weight:$body-font-weight;
+}
+
+::-moz-selection {
+    background: $brand-primary;
+    text-shadow: none;
+    color:#fff;
+}
+::selection {
+    background: $brand-primary;
+    text-shadow: none;
+    color:#fff;
+}
+
+// Bangin' links
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover, &.selected {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }//hover
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*Remove the gap between images and the bottom of their containers: h5bp.com/i/440*/
+img {vertical-align: middle;}
+
+/*Remove default fieldset styles.*/
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Allow only vertical resizing of textareas.*/
+textarea {
+    resize: vertical;
+}
+
+
+// Table of contents
+.toc {
+  margin-left: 0;
+}
+.toc li {
+  display: block;
+}
+.toc a {
+  display: block;
+  margin-left: -10px;
+  padding: 4px 10px;
+  &:hover {
+    text-decoration: none;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  color: #fff;
+  text-align: center;
+  background-color: $brand-primary;
+
+  &:hover,
+  &:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #7a43b6;
+  }
+
+  &:active {
+    box-shadow: inset 0 3px 6px rgba(0,0,0,.3);
+  }
+}//btn
+
+
+
+/* #Lists
+================================================== */
+	ul { list-style: none outside; padding:0; }
+	ol { list-style: decimal; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+
+/* #Chrome Frame Prompt
+================================================== */
+
+.chromeframe { position: fixed; top: 0; width: 70%; margin: 200px 15%; padding: 50px; border-radius: 2px; background: rgba(0, 0, 0, 0.8); color: #a49eff; text-shadow: 1px 1px 0 #000; text-align: center; z-index: 99999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  a:link { color: #cfccfc; text-decoration: none; }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  padding:emCalc(75px) 0 0 0;
+}//body
+
+
+#wrapper {
+  width: 100%;
+  &.grid {
+    .box {
+      p {
+        margin:0;
+        @include l-height(40);
+      }//p
+    }//box
+  }//grid
+  
+  &.home {
+    section {
+      &.intro {
+        img {
+          width:100%;
+          margin-bottom:emCalc(20px);
+        }//img
+      }//intro
+    }//section
+    article {
+      &.headers {
+        i.flight-plane {
+          @include f-size(140);
+        }//i
+      }// headers
+      &.features {
+        ul {
+          font-family:$font-family-monospace;
+          margin-top:0;
+          li {
+            i:before {
+              color:$brand-primary;
+            }//before i
+            margin-bottom:emCalc(20px);
+            @include f-size(15);
+          }//li
+        }//ul
+      }//features
+    }//article
+  }//home
+}//wrappers
+
+section {  
+    &.icons {
+      [class*="icons-content-"] {
+        ul {
+          text-align:center;
+        }//uls
+        [class*="icn-"], [class*="icn-social"] {
+          @include f-size(30);
+        }//foundicon class
+      }//foundicons
+    }//home
+}//sections
+
+
+#screen-indicators {
+  position: fixed;
+  top: emCalc(45px);
+  left: 0;
+  z-index: 1;
+  p {
+    margin: 0 0 2px;
+    padding: 0.25em 1em;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    @include border-bottom-right-radius(4px);
+    background: $text-color;
+    @include opacity(.4);
+   } //p
+}//screen size indicator top left
+
+//labels
+.labels-container {
+  .label {
+    &:first-child{margin-top:emCalc(20px);}
+    @include f-size(12);
+    margin-bottom:emCalc(20px);
+  }
+}//labels container
+
+
+/* #Media Queries - Remove them if ur not gonna use them or if ur gonna put them some other place
+================================================ */
+
+/* We use this media query to add styles to any device that supports media queries */
+@media #{$screen} {}
+/* Apply styles to screens in landscape orientation */
+@media #{$landscape} {}
+/* Apply styles to screens in portrait orientation */
+@media #{$portrait} {}
+//tablet portrait
+@media #{$tablet_portrait} {}
+//Default
+@media #{$default} {}
+//Handheld device landscape
+@media #{$handheld_landscape} {}
+//Handheld device landscape
+@media #{$handheld} {}
+//Big screens
+@media #{$large} {}
+//High Resolutions
+@media #{$high_ress} {}
