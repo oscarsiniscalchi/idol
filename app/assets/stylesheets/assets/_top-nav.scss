@@ -1,0 +1,195 @@
+/* #NAVBARS
+================================================== */
+
+$topbar-position: relative !default;
+$topbar-top: 0 !default;
+
+// Background color for the top bar
+$topbar-bg: $black-90 !default;
+
+// Height and margin
+$topbar-height: emCalc(45px) !default;
+$topbar-margin-bottom: emCalc(30px) !default;
+
+// Control Input height for top bar
+$topbar-input-height: 2.45em !default;
+
+// Controlling the styles for the title in the top bar
+$topbar-title-weight: normal !default;
+$topbar-title-font-size: emCalc(17px) !default;
+
+// Set the link colors and styles for top-level nav
+$topbar-link-color: $black-20 !default;
+$topbar-link-weight: normal !default;
+$topbar-link-font-size: emCalc(13px) !default;
+
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: #333 !default;
+$topbar-dropdown-link-color: #fff !default;
+$topbar-dropdown-toggle-size: 5px !default;
+$topbar-dropdown-toggle-color: #fff !default;
+$topbar-dropdown-toggle-alpha: 0.5 !default;
+$dropdown-label-color: #555 !default;
+
+// Top menu icon styles
+$topbar-menu-link-transform: uppercase !default;
+$topbar-menu-link-font-size: emCalc(13px) !default;
+$topbar-menu-link-weight: normal !default;
+$topbar-menu-link-color: #fff !default;
+$topbar-menu-icon-color: #fff !default;
+$topbar-menu-link-color-toggled: #888 !default;
+$topbar-menu-icon-color-toggled: #888 !default;
+
+// Transitions and breakpoint styles
+$topbar-transition-speed: 300ms !default;
+$topbar-breakpoint: emCalc(940px) !default; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width:"#{$topbar-breakpoint}")" !default;
+
+// Wrapped around .top-bar to make it fixed at the top
+
+.navbar {
+  position:relative;
+  &.top-nav {
+    ul, ol {list-style:none;}
+    width:100%;
+    overflow: visible;
+    height: $topbar-height;
+    line-height: $topbar-height;
+    background: $topbar-bg;
+    margin-bottom: $topbar-margin-bottom;
+    top:$topbar-top;
+    #{$default-float}: 0;
+    position:relative;
+    &.fixed {
+      @extend .fixed;
+      width:100%;
+      z-index: 999;
+    }
+    .items {
+      margin:0;
+      li {display:inline-block;}
+      a {
+        color:$topbar-link-color;
+        font-size:$topbar-link-font-size;
+        display: block;
+        padding: 0 $topbar-height / 3;
+        &:hover, &.active {
+          text-decoration:none;
+          color:#fff;
+          background-color:lighten($topbar-bg, 30%);
+        }//hover
+        &.active {background-color:$primary-color;}
+      }//a
+      .sub-cat {
+        margin:0;
+        position:absolute;
+        background: $topbar-bg;
+        padding-left:0;
+        display:none;
+        z-index: 6000;
+        li:last-child {border:none;}
+        &.active {
+          display:block;
+        }//active subcat
+        li {
+          display:block;
+        }//li
+      }//subcat
+    }//items
+    
+    // Menu toggle button on small devices
+    .toggle-topbar {
+      position: absolute;
+      #{$default-opposite}: 0;
+      top: 0;
+      
+      &.inactive {
+        display:none;
+      }
+
+      a {
+        color: $topbar-link-color;
+        text-transform: $topbar-menu-link-transform;
+        font-size: $topbar-menu-link-font-size;
+        font-weight: $topbar-menu-link-weight;
+        position: relative;
+        display: block;
+        padding: 0 $topbar-height / 3;
+        height: $topbar-height;
+        line-height: $topbar-height;
+      }
+
+      // Adding the class "menu-icon" will add the 3-line icon people love and adore.
+      &.menu-icon {
+        #{$default-opposite}: $topbar-height / 3;
+        top: 50%;
+        margin-top: -16px;
+        padding-#{$default-float}: 40px;
+
+        a {
+          text-indent: -48px;
+          width: 34px;
+          height: 34px;
+          line-height: 33px;
+          padding: 0;
+          color: $topbar-menu-link-color;
+
+          span {
+            position: absolute;
+            #{$default-opposite}: 0;
+            display: block;
+            width: 16px;
+            height: 0;
+            // Shh, don't tell, but box-shadows create the menu icon :)
+            -webkit-box-shadow: 0 10px 0 1px $topbar-menu-icon-color,
+                                0 16px 0 1px $topbar-menu-icon-color,
+                                0 22px 0 1px $topbar-menu-icon-color;
+
+            box-shadow:         0 10px 0 1px $topbar-menu-icon-color,
+                                0 16px 0 1px $topbar-menu-icon-color,
+                                0 22px 0 1px $topbar-menu-icon-color;
+          }//span
+        }//a
+      }//menu icon class
+    }//toogle menu
+    
+    @include respond-to(handheld)  {
+      overflow: hidden;
+      .toggle-topbar {
+        float:right;
+        position:relative;
+        &.menu-icon {
+          margin-top:0;
+          position:relative;
+          float:none;
+          height: $topbar-height;
+          a {
+            float:right;
+            margin-top:6px;
+          }//a
+        }//menu icon
+      }//toggle
+      .items {
+        li {
+          display:block;
+          a {
+            border-bottom:1px solid $black-80;
+            display:block;
+            &:hover {
+              background-color:$black-80;
+            }//hover
+          }//a
+          .sub-cat {
+            position:relative;
+            background: $topbar-bg;
+            li {
+              display:block;
+              a {padding-left:emCalc(30px);}
+            }//li
+          }//subcat
+        }//li
+      }//ul
+    }//respond to
+    
+  }//top nav
+}//nav

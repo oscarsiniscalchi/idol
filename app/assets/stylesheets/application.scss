@@ -1,16 +1,36 @@
+/*
+ *= require_self
+ */
+ 
  @charset "UTF-8";
  // Global elements that are needed to work with any of the other files.
  @import "compass";
  @import "compass/css3";
+ //Use this if u want to add a vertical grid to your content
+ //@import "compass/typography/vertical_rhythm";
  @import "assets/base";
 
  // NR Components
 
  @import 'assets/normalize';
- @import 'assets/grid';
+ //for showing only remove for real projects
+ @import 'code-highlight/monokai.css';
+ @import 'assets/grid/grid';
  @import 'assets/type';
+ @import 'assets/labels';
+ // Media Partials
+ @import "assets/partials/default";
+ @import "assets/partials/large";
+ @import "assets/partials/tablet-portrait";
+ @import "assets/partials/handheld";
+ @import "assets/partials/handheld-landscape";
  //--------------------------------------
  // Fonts
  @import 'assets/icons';
+ @import 'assets/icons-enclosed';
+ @import 'assets/icons-social';
+ @import 'assets/icons-flight';
  //--------------------------------------
  @import 'main';
+ @import 'assets/sidebar';
+ @import 'assets/top-nav';

@@ -15,6 +15,9 @@
 = require vendor/dotimeout
 = require vendor/hoverintent
 = require vendor/scrollTo
+= require assets/highlight.pack
+=require assets/boobstrap.topbar
+= require assets/anchor-easing
 =require assets/boobstrap
 =require main
 */

@@ -1,0 +1,65 @@
+
+
+Started GET "/assets/vendor/modernizr-2.6.2.min.js" for 127.0.0.1 at 2013-06-19 11:21:26 -0300
+Compiled vendor/modernizr-2.6.2.min.js  (0ms)  (pid 1681)
+Served asset /vendor/modernizr-2.6.2.min.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/vendor/modernizr-2.6.2.min.js" for 127.0.0.1 at 2013-06-19 11:21:31 -0300
+Served asset /vendor/modernizr-2.6.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-19 11:21:31 -0300
+Compiled jquery.js  (2ms)  (pid 1681)
+Compiled jquery_ujs.js  (0ms)  (pid 1681)
+Compiled vendor/dotimeout.js  (0ms)  (pid 1681)
+Compiled vendor/hoverintent.js  (0ms)  (pid 1681)
+Compiled vendor/scrollTo.js  (0ms)  (pid 1681)
+Compiled assets/highlight.pack.js  (0ms)  (pid 1681)
+Compiled assets/boobstrap.topbar.js  (0ms)  (pid 1681)
+Compiled assets/anchor-easing.js  (0ms)  (pid 1681)
+Compiled assets/boobstrap.js  (0ms)  (pid 1681)
+Compiled main.js  (0ms)  (pid 1681)
+Compiled application.js  (168ms)  (pid 1681)
+Served asset /application.js - 200 OK (220ms)
+
+
+Started GET "/assets/code-highlight/monokai.css" for 127.0.0.1 at 2013-06-19 11:21:32 -0300
+Compiled code-highlight/monokai.css  (0ms)  (pid 1681)
+Served asset /code-highlight/monokai.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/boobstrap.jpg" for 127.0.0.1 at 2013-06-19 11:21:32 -0300
+Served asset /boobstrap.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/vendor/modernizr-2.6.2.min.js" for 127.0.0.1 at 2013-06-19 11:23:44 -0300
+Served asset /vendor/modernizr-2.6.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-19 11:23:44 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/code-highlight/monokai.css" for 127.0.0.1 at 2013-06-19 11:23:44 -0300
+Served asset /code-highlight/monokai.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/boobstrap.jpg" for 127.0.0.1 at 2013-06-19 11:23:44 -0300
+Served asset /boobstrap.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/modernizr-2.6.2.min.js" for 127.0.0.1 at 2013-06-19 11:23:47 -0300
+Served asset /vendor/modernizr-2.6.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-19 11:23:47 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/code-highlight/monokai.css" for 127.0.0.1 at 2013-06-19 11:23:47 -0300
+Served asset /code-highlight/monokai.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/boobstrap.jpg" for 127.0.0.1 at 2013-06-19 11:23:47 -0300
+Served asset /boobstrap.jpg - 304 Not Modified (0ms)
