@@ -1,4 +1,3 @@
-@import url(code-highlight/monokai.css);
 /*
  *= require_self
  */
@@ -486,12 +485,12 @@ table {
   clear: both;
 }
 
-/* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 87.5%;
 }
 
-/* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 14px;
   line-height: 1.5em;
@@ -1051,12 +1050,12 @@ a.d-show, abbr.d-show, acronym.d-show, audio.d-show, b.d-show, basefont.d-show, 
 }
 
 @media only screen and (min-width: 1801px) and (max-width: 6000px) {
-  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   * html {
     font-size: 100%;
   }
 
-  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 16px;
     line-height: 1.5em;
@@ -1592,12 +1591,12 @@ a.d-show, abbr.d-show, acronym.d-show, audio.d-show, b.d-show, basefont.d-show, 
   }
 }
 @media only screen and (min-width: 1250px) and (max-width: 1800px) {
-  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   * html {
     font-size: 100%;
   }
 
-  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 16px;
     line-height: 1.5em;
@@ -2133,12 +2132,12 @@ a.d-show, abbr.d-show, acronym.d-show, audio.d-show, b.d-show, basefont.d-show, 
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 980px) {
-  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   * html {
     font-size: 87.5%;
   }
 
-  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 14px;
     line-height: 1.5em;
@@ -2760,12 +2759,12 @@ a.d-show, abbr.d-show, acronym.d-show, audio.d-show, b.d-show, basefont.d-show, 
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   * html {
     font-size: 87.5%;
   }
 
-  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 14px;
     line-height: 1.5em;
@@ -3091,12 +3090,12 @@ a.d-show, abbr.d-show, acronym.d-show, audio.d-show, b.d-show, basefont.d-show, 
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   * html {
     font-size: 87.5%;
   }
 
-  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194@boobytrap/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392@idol/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 14px;
     line-height: 1.5em;
@@ -4832,600 +4831,6 @@ blockquote p {
 /* line 715, ../../app/assets/stylesheets/assets/_icons.scss */
 .icn-cc-nc:before {
   content: "\e0e3";
-}
-
-/* font-face */
-@font-face {
-  font-family: "icons-enclosed";
-  src: url("fonts/icons-enclosed/icons-enclosed.eot");
-  src: url("fonts/icons-enclosed/icons-enclosed.eot?#iefix") format("embedded-opentype"), url("fonts/icons-enclosed/icons-enclosed.woff") format("woff"), url("fonts/icons-enclosed/icons-enclosed.ttf") format("truetype"), url("fonts/icons-enclosed/icons-enclosed.svg#icons-enclosed") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* global foundicon styles */
-/* line 13, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-[class*="icn-enclosed"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-/* line 24, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-[class*="icn-enclosed"]:before {
-  font-family: "icons-enclosed";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-}
-
-/* icons */
-/* line 33, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-settings:before {
-  content: "\f000";
-}
-
-/* line 37, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-heart:before {
-  content: "\f001";
-}
-
-/* line 41, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-star:before {
-  content: "\f002";
-}
-
-/* line 45, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-plus:before {
-  content: "\f003";
-}
-
-/* line 49, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-minus:before {
-  content: "\f004";
-}
-
-/* line 53, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-checkmark:before {
-  content: "\f005";
-}
-
-/* line 57, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-remove:before {
-  content: "\f006";
-}
-
-/* line 61, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-mail:before {
-  content: "\f007";
-}
-
-/* line 65, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-calendar:before {
-  content: "\f008";
-}
-
-/* line 69, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-page:before {
-  content: "\f009";
-}
-
-/* line 73, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-tools:before {
-  content: "\f00a";
-}
-
-/* line 77, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-globe:before {
-  content: "\f00b";
-}
-
-/* line 81, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-home:before {
-  content: "\f00c";
-}
-
-/* line 85, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-quote:before {
-  content: "\f00d";
-}
-
-/* line 89, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-people:before {
-  content: "\f00e";
-}
-
-/* line 93, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-monitor:before {
-  content: "\f00f";
-}
-
-/* line 97, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-laptop:before {
-  content: "\f010";
-}
-
-/* line 101, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-phone:before {
-  content: "\f011";
-}
-
-/* line 105, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-cloud:before {
-  content: "\f012";
-}
-
-/* line 109, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-error:before {
-  content: "\f013";
-}
-
-/* line 113, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-right-arrow:before {
-  content: "\f014";
-}
-
-/* line 117, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-left-arrow:before {
-  content: "\f015";
-}
-
-/* line 121, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-up-arrow:before {
-  content: "\f016";
-}
-
-/* line 125, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-down-arrow:before {
-  content: "\f017";
-}
-
-/* line 129, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-trash:before {
-  content: "\f018";
-}
-
-/* line 133, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-add-doc:before {
-  content: "\f019";
-}
-
-/* line 137, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-edit:before {
-  content: "\f01a";
-}
-
-/* line 141, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-lock:before {
-  content: "\f01b";
-}
-
-/* line 145, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-unlock:before {
-  content: "\f01c";
-}
-
-/* line 149, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-refresh:before {
-  content: "\f01d";
-}
-
-/* line 153, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-paper-clip:before {
-  content: "\f01e";
-}
-
-/* line 157, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-video:before {
-  content: "\f01f";
-}
-
-/* line 161, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-photo:before {
-  content: "\f020";
-}
-
-/* line 165, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-graph:before {
-  content: "\f021";
-}
-
-/* line 169, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-idea:before {
-  content: "\f022";
-}
-
-/* line 173, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-mic:before {
-  content: "\f023";
-}
-
-/* line 177, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-cart:before {
-  content: "\f024";
-}
-
-/* line 181, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-address-book:before {
-  content: "\f025";
-}
-
-/* line 185, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-compass:before {
-  content: "\f026";
-}
-
-/* line 189, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-flag:before {
-  content: "\f027";
-}
-
-/* line 193, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-location:before {
-  content: "\f028";
-}
-
-/* line 197, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-clock:before {
-  content: "\f029";
-}
-
-/* line 201, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-folder:before {
-  content: "\f02a";
-}
-
-/* line 205, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-inbox:before {
-  content: "\f02b";
-}
-
-/* line 209, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-website:before {
-  content: "\f02c";
-}
-
-/* line 213, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-smiley:before {
-  content: "\f02d";
-}
-
-/* line 217, ../../app/assets/stylesheets/assets/_icons-enclosed.scss */
-.icn-enclosed-search:before {
-  content: "\f02e";
-}
-
-/*font face*/
-@font-face {
-  font-family: "icons-social";
-  src: url("fonts/icons-social/icons-social.eot");
-  src: url("fonts/icons-social/icons-social.eot?#iefix") format("embedded-opentype"), url("fonts/icons-social/icons-social.woff") format("woff"), url("fonts/icons-social/icons-social.ttf") format("truetype"), url("fonts/icons-social/icons-social.svg#icons-social") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* global foundicon styles */
-/* line 15, ../../app/assets/stylesheets/assets/_icons-social.scss */
-[class*="icn-social"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-  font-style: normal;
-}
-
-/* line 26, ../../app/assets/stylesheets/assets/_icons-social.scss */
-[class*="icn-social"]:before {
-  font-family: "icons-social";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-}
-
-/* icons */
-/* line 35, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-facebook:before {
-  content: "\e0f7";
-}
-
-/* line 38, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-facebook-2:before {
-  content: "\e0f8";
-}
-
-/* line 41, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-googleplus:before {
-  content: "\e0f9";
-}
-
-/* line 44, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-googleplus-2:before {
-  content: "\e0fa";
-}
-
-/* line 47, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-pinterest:before {
-  content: "\e0fb";
-}
-
-/* line 50, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-pinterest-2:before {
-  content: "\e0fc";
-}
-
-/* line 53, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-tumblr:before {
-  content: "\e0fd";
-}
-
-/* line 56, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-tumblr-2:before {
-  content: "\e0fe";
-}
-
-/* line 59, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-linkedin:before {
-  content: "\e0ff";
-}
-
-/* line 62, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-linkedin-2:before {
-  content: "\e100";
-}
-
-/* line 65, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-dribbble:before {
-  content: "\e101";
-}
-
-/* line 68, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-dribbble-2:before {
-  content: "\e102";
-}
-
-/* line 71, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-stumbleupon:before {
-  content: "\e103";
-}
-
-/* line 74, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-stumbleupon-2:before {
-  content: "\e104";
-}
-
-/* line 77, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-lastfm:before {
-  content: "\e105";
-}
-
-/* line 80, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-lastfm-2:before {
-  content: "\e106";
-}
-
-/* line 83, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-rdio:before {
-  content: "\e107";
-}
-
-/* line 86, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-rdio-2:before {
-  content: "\e108";
-}
-
-/* line 89, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-spotify:before {
-  content: "\e109";
-}
-
-/* line 92, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-spotify-2:before {
-  content: "\e10a";
-}
-
-/* line 95, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-qq:before {
-  content: "\e10b";
-}
-
-/* line 98, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-instagram:before {
-  content: "\e10c";
-}
-
-/* line 101, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-dropbox:before {
-  content: "\e10d";
-}
-
-/* line 104, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-evernote:before {
-  content: "\e10e";
-}
-
-/* line 107, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-flattr:before {
-  content: "\e10f";
-}
-
-/* line 110, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-skype:before {
-  content: "\e110";
-}
-
-/* line 113, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-skype-2:before {
-  content: "\e111";
-}
-
-/* line 116, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-renren:before {
-  content: "\e112";
-}
-
-/* line 119, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-sina-weibo:before {
-  content: "\e113";
-}
-
-/* line 122, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-paypal:before {
-  content: "\e114";
-}
-
-/* line 125, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-picasa:before {
-  content: "\e115";
-}
-
-/* line 128, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-soundcloud:before {
-  content: "\e116";
-}
-
-/* line 131, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-mixi:before {
-  content: "\e117";
-}
-
-/* line 134, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-behance:before {
-  content: "\e118";
-}
-
-/* line 137, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-circles:before {
-  content: "\e119";
-}
-
-/* line 140, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-vk:before {
-  content: "\e11a";
-}
-
-/* line 143, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-smashing:before {
-  content: "\e11b";
-}
-
-/* line 146, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-github:before {
-  content: "\e0ee";
-}
-
-/* line 149, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-github-2:before {
-  content: "\e0ef";
-}
-
-/* line 152, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-flickr:before {
-  content: "\e0f0";
-}
-
-/* line 155, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-flickr-2:before {
-  content: "\e0f1";
-}
-
-/* line 158, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-vimeo:before {
-  content: "\e0f2";
-}
-
-/* line 161, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-vimeo-2:before {
-  content: "\e0f3";
-}
-
-/* line 164, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-twitter:before {
-  content: "\e0f4";
-}
-
-/* line 167, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-twitter-2:before {
-  content: "\e0f5";
-}
-
-/* line 170, ../../app/assets/stylesheets/assets/_icons-social.scss */
-.icn-social-facebook-3:before {
-  content: "\e0f6";
-}
-
-/*font face*/
-@font-face {
-  font-family: "safe-flight";
-  src: url("fonts/safe-flight/safe-flight.eot");
-  src: url("fonts/safe-flight/safe-flight.eot?#iefix") format("embedded-opentype"), url("fonts/safe-flight/safe-flight.woff") format("woff"), url("fonts/safe-flight/safe-flight.ttf") format("truetype"), url("fonts/safe-flight/safe-flight.svg#icons-social") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* global foundicon styles */
-/* line 15, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-[class*="flight-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-  font-style: normal;
-}
-
-/* line 26, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-[class*="flight-"]:before {
-  font-family: "safe-flight";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-}
-
-/* line 34, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-seat:before {
-  content: "\e000";
-}
-
-/* line 37, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-plane:before {
-  content: "\e001";
-}
-
-/* line 40, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-oxigen:before {
-  content: "\e002";
-}
-
-/* line 43, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-fasten:before {
-  content: "\e003";
-}
-
-/* line 46, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-fasten-2:before {
-  content: "\e004";
-}
-
-/* line 49, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-crash:before {
-  content: "\e005";
-}
-
-/* line 52, ../../app/assets/stylesheets/assets/_icons-flight.scss */
-.flight-blow:before {
-  content: "\e006";
 }
 
 /* line 3, ../../app/assets/stylesheets/_main.scss */

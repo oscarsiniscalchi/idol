@@ -63,3 +63,8 @@ Served asset /code-highlight/monokai.css - 304 Not Modified (0ms)
 
 Started GET "/assets/boobstrap.jpg" for 127.0.0.1 at 2013-06-19 11:23:47 -0300
 Served asset /boobstrap.jpg - 304 Not Modified (0ms)
+WARNING on line 31 of /Users/Mojo/sites/idol/app/assets/stylesheets/assets/_icons.scss: "[class*="icn-"]:before" failed to @extend ".antialised".
+  The selector ".antialised" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .antialised !optional" if the extend should be able to fail.
+
