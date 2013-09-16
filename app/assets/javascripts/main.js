@@ -44,49 +44,64 @@ var main = {
     var amount = $item.length;
     $slider.css('width', galW*amount);
     $item.css('width', galW);
-    var current = 1;
+    var current = 0;
     var itemW = galW;
 
-    function moveSlider (where) {
+    function moveSlider (to) {
 
-      var increase = -(itemW);
-      var decrease = +(itemW);
       var previousActual = $slider.find('.actual').index();
       var nextActual;
       var next;
-      var offset;
-      if (where > current) {
-        offset = increase;
-        nextActual = previousActual+1;
-        next = current+1;
-      } else if (where < current) {
-        offset = decrease;
-        nextActual = previousActual-1;
-        next = current-1;
+      var offset = -(itemW * to);
+      var destination_index;
+      var duration = 850;
+      var default_css = {
+        right: -200,
+        opacity: 0
+      };
+
+      if (to < 0 || to >= amount){
+        // RESET
+        $slider.animate(
+          { left: 0 },
+          duration,
+          function() {
+            $('.actual').removeClass('actual');
+            current = 0;
+            $($('.item')[current]).addClass('actual');
+          }
+        );
+      }else{
+        $slider.animate(
+          { left: offset },
+          duration,
+          function() {
+            $('.actual').removeClass('actual');
+            current = to;
+            $($('.item')[current]).addClass('actual');
+          }
+        );
+        paralaxAnimate($($('.item')[to]).addClass('actual'), false);
+        paralaxAnimate($($('.item')[current]).addClass('actual'), default_css);
       }
-      var duration = 300;
-
-      if (current==1 && next<=current || current>=amount) {
-        $slider.animate({
-          left: 0},
-          duration, function() {
-          current = 1;
-          $item.removeClass('actual');
-          $item.eq(0).addClass('actual');
-        });
-      }; //if current is greater than amount of items
-
-      if (current>1 && current<amount || next>current && current==1) {
-        $slider.animate({
-          left: (offset*nextActual)},
-          duration, function() {
-            $item.removeClass('actual');
-            $item.eq(nextActual).addClass('actual');
-            current = next;
-        });
-      }; //gap in which we will trigger the animation
-
     }; // Move Slider
+    paralaxAnimate($($('.item')[current]).addClass('actual'), false);
+
+    function paralaxAnimate(item, default_data){
+      $('.paralax', item).each(function(){
+        var data_params = default_data;
+        if(!data_params){
+          data_params = $(this).data();
+        };
+        $(this).animate(
+          data_params,
+          $(this).data('duration'),
+          function() {
+          }
+        );
+      })
+    };
+
     $('a.arrow-r').click(function (e) {
       e.preventDefault();
       moveSlider(current+1);
