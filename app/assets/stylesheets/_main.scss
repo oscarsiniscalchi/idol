@@ -247,14 +247,15 @@ body {
         [class*="objects-"] {
           position: absolute;
           top: 0;
-          right: 70px;
-          opacity: 1;
+          right: -200px;
+          opacity: 0;
           z-index: 3;
         }//objects
         .bg {
           position: absolute;
           top: 8px;
-          right: 40px;
+          right: -200px;
+          opacity: 0;
           z-index: 2;
         }//bg
       }//item
