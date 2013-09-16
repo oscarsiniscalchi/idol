@@ -17,8 +17,9 @@
 = require vendor/scrollTo
 = require vendor/jquery.stellar.min
 = require vendor/iscroll
-=require assets/boobstrap.topbar
+= require vendor/masonry.min
+= require assets/boobstrap.topbar
 = require assets/anchor-easing
-=require assets/boobstrap
-=require main
+= require assets/boobstrap
+= require main
 */
