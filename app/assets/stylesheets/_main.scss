@@ -316,6 +316,64 @@ body {
   }//contestants list
 }//wrapper
 
+#about {
+  padding-top: 40px;
+  position: relative;
+  .data {
+    width: 40%;
+    float: left;
+    h1 {
+      font-weight: bold;
+      @include f-size(50);
+      color: #363636;
+      margin-bottom: 10px;
+    }//h1
+    h2 {
+      @include f-size(26);
+      font-weight: lighter;
+      line-height: 26px;
+      color: #494949;
+      margin-bottom: 30px;
+      span {
+        vertical-align: text-top;
+        margin-left: 10px;
+      }
+    }//h2
+    p {
+      @include f-size(15);
+      line-height: 22px;
+      color: #8e8e8e;
+      @extend .antialiased;
+    }//p
+  }//data
+  .pic {
+    width: 50%;
+    float: right;
+    position: relative;
+    img {width: 100%;}
+    z-index: 5;
+  }//pic
+  .cir1 {
+    width: 37px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    z-index: 10;
+  }
+  .cir2 {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    z-index: 6;
+  }
+  .cir3 {
+    position: absolute;
+    right: 40%;
+    top: 300px;
+    z-index: 9;
+  }
+}//about
+
 footer {
   margin-bottom: 66px;
   .g-all-c {

@@ -12,21 +12,21 @@ var main = {
         var iScrollInstance;
 
         if (isMobileWebkit) {
-          iScrollInstance = new iScroll('gallery');
+          iScrollInstance = new iScroll('about');
 
           $('#scroller').stellar({
             scrollProperty: 'transform',
             positionProperty: 'transform',
             horizontalOffset: 0,
             verticalOffset: 0,
-            horizontalScrolling: true,
-            verticalScrolling: false,
+            horizontalScrolling: false,
+            verticalScrolling: true,
             hideDistantElements: false
           });
         } else {
           $.stellar({
-            horizontalScrolling: true,
-            verticalScrolling: false,
+            horizontalScrolling: false,
+            verticalScrolling: true,
             hideDistantElements: false,
             horizontalOffset: 0,
             verticalOffset: 0,
