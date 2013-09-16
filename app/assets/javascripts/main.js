@@ -54,20 +54,19 @@ var main = {
       var previousActual = $slider.find('.actual').index();
       var nextActual;
       var next;
+      var offset;
       if (where > current) {
-        where = increase;
+        offset = increase;
         nextActual = previousActual+1;
         next = current+1;
       } else if (where < current) {
-        where = decrease;
+        offset = decrease;
         nextActual = previousActual-1;
         next = current-1;
       }
       var duration = 300;
 
       if (current==1 && next<=current || current>=amount) {
-        console.log(current);
-        console.log("next = "+next)
         $slider.animate({
           left: 0},
           duration, function() {
@@ -78,10 +77,8 @@ var main = {
       }; //if current is greater than amount of items
 
       if (current>1 && current<amount || next>current && current==1) {
-        console.log(current);
-        console.log("next = "+next)
         $slider.animate({
-          left: where},
+          left: (offset*nextActual)},
           duration, function() {
             $item.removeClass('actual');
             $item.eq(nextActual).addClass('actual');
@@ -98,7 +95,6 @@ var main = {
       e.preventDefault();
       moveSlider(current-1);
     });
-
 
   },
 
